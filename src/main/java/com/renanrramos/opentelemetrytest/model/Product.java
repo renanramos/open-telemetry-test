@@ -9,8 +9,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * @author renan.ramos
@@ -20,6 +22,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @Entity
+@EqualsAndHashCode
+@ToString
 public class Product {
 
 	@Id
